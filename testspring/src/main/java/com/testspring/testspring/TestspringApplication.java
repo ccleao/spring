@@ -12,12 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api")
 public class TestspringApplication {
     public static void main(String[] args) {
-        SpringApplication.run(TestspringApplication.class, args);
-        System.out.println("Teste!!!!");
-    }
+        System.out.println("Geraldah Colagenadah");
 
-    @GetMapping("/{id}")
-    public String testeApi(@PathVariable int id) {
-        return "Teste!!!! " + id;
-    }
+}
 }
